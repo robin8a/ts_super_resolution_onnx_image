@@ -1,0 +1,12 @@
+{
+  "bucket": "tsbiomassmodeldata",
+  "key": "path/to/your/input_image.tif",
+  "model_bucket": "tsbiomassmodeldata",
+  "sr_model_key": "model/satlas_sr.onnx",
+  "output_bucket": "tsbiomassmodeldata",
+  "output_key_prefix": "super_resolution/",
+  "use_unet": false,
+  "band_indices": [0, 1, 2]
+}
+
+
